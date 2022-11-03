@@ -1,0 +1,17 @@
+nylon_in_m2=int(input())
+painting_in_lt=int(input())
+thinner_in_lt=int(input())
+hours_of_work=int(input())
+bags=0.40
+
+sum_nylon=(nylon_in_m2+2)*1.50
+percent_paint=painting_in_lt*0.1
+sum_painting=(painting_in_lt+percent_paint)*14.50
+sum_thinner=thinner_in_lt*5
+
+total_sum_materials=sum_nylon+sum_painting+sum_thinner+bags
+work_per_hour_price=total_sum_materials*0.3
+hour_work_price=work_per_hour_price*hours_of_work
+total_price_for_all=total_sum_materials+hour_work_price
+
+print(total_price_for_all)
