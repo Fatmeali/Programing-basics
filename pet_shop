@@ -1,0 +1,12 @@
+pack_of_dog_food=int(input())
+pack_of_cat_food=int(input())
+
+price_of_dog_food=float(2.5)
+price_of_cat_food=float(4)
+
+total_amount_cat=float(pack_of_cat_food*price_of_cat_food)
+total_amount_dog=float(pack_of_dog_food*price_of_dog_food)
+
+grand_total=float(total_amount_cat+total_amount_dog)
+
+print(f'{grand_total} lv.')
