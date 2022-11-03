@@ -1,0 +1,10 @@
+m2_grass = float(input())
+price_m2_grass = float(7.61)
+discount_percentage = float(0.18)
+
+subtotal_price_grass = float(m2_grass*price_m2_grass)
+discount_amount = round(float(subtotal_price_grass*discount_percentage), 2)
+grand_total = round(float(subtotal_price_grass-discount_amount), 2)
+
+print(f'The final price: {grand_total} lv.')
+print(f'The discount is: {discount_amount} lv.')
