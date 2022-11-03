@@ -1,0 +1,14 @@
+numbers_pack_of_pens=int(input())
+numbers_pack_of_markers=int(input())
+lt_of_detergent=int(input())
+discount_percent=float(input())
+
+price_of_pack_of_pens=(numbers_pack_of_pens*5.80)
+price_of_pack_of_markers=(numbers_pack_of_markers*7.2)
+price_of_lt_detergent=lt_of_detergent*1.20
+
+all_price=(price_of_pack_of_pens+price_of_pack_of_markers+price_of_lt_detergent)
+price_of_discount= all_price*(discount_percent/100)
+total_sum=all_price-price_of_discount
+
+print(total_sum)
