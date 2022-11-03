@@ -1,0 +1,8 @@
+number_of_pages=int(input())
+pages_per_day=int(input())
+how_many_days_to_read=float(input())
+
+total_time_to_read=int(number_of_pages/pages_per_day)
+required_hours_per_day=int(total_time_to_read/how_many_days_to_read)
+
+print(required_hours_per_day)
