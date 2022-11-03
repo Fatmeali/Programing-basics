@@ -1,0 +1,11 @@
+length_in_cm=int(input())
+width_in_cm=int(input())
+high_in_cm=int(input())
+percentage=float(input())
+
+volume_aqua=length_in_cm*width_in_cm*high_in_cm
+volume_in_lt=volume_aqua/1000
+occupied_space=0.17
+lt_in_need=volume_in_lt*(1-occupied_space)
+
+print(lt_in_need)
